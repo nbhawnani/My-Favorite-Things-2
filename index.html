@@ -2,36 +2,75 @@
 <!DOCTYPE html> 
 
 <html>
+  <!-- updated comments -->
 
   <!-- The head section is not visible in the output of the web page -->
 <head>
 <!-- This is going to name the window -->
   <title>My Favorite Things</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <style>
+
+    ul {
+      list-style-type:circle;
+      
+    }
+
+    section {
+
+      background-color:lightblue;
+
+    }
+
+    
+
+  </style>
+  
  
 </head>
 
-<body>
+<body style="background-color:lightgreen">
   
-  <h1>My Favorite Things</h1>
-  <hr />
+  <header style="background-color:red;">
+    <h1>My Favorite Things</h1>
+    Text adjacent to a block level element 
+    <hr style="border-color:green;border-width:5px;border-style:dotted"/>
+  </header>
+  
   <br />
-  <h2>My Favorite Sport</h2>
-  <p><em>Basketball</em> is my favorite sport</p>
+  <section >
+    <h2 style="color:blueviolet">My Favorite Sport</h2>
+    <p><em>Basketball</em> is my favorite sport
+    </p>
+  </section>
 
-  <h2>My favorite foods</h2>
-  
-<!-- This is an ordered list -->
-  <ol type="I" start=4>
-    <li><strong>Palak Paneer</strong></li>
-    <li>Biryani</li>
-    <li>Chicken curry</li>
+  <section>
+      <h2 style="color:#cc2375;">My favorite foods</h2>
+      
+    <!-- This is an ordered list -->
+      <ul>
+        <li><strong>Palak Paneer</strong></li>
+        <li>Biryani</li>
+        <li>Chicken curry</li>
+        
+      </ul>
     
-  </ol>
+      <img src="https://healthynibblesandbits.com/wp-content/uploads/2020/01/Saag-Paneer-FF.jpg" alt="palak paneer" width="200px" />
+    
 
-  <img src="https://healthynibblesandbits.com/wp-content/uploads/2020/01/Saag-Paneer-FF.jpg" alt="palak paneer" width="200px" />
+      <br /><br />
+      <a href= "https://healthynibblesandbits.com/easy-palak-paneer/" target="_blank" >Recipe for palak paneer</a>
 
-  <br /><br />
-  <a href= "https://healthynibblesandbits.com/easy-palak-paneer/" target="_blank" >Recipe for palak paneer</a>
+    </section>
+
+  <footer>
+    <p>
+    @ 2022, Nisha Brijesh
+    </p>
+    
+  </footer>
 
 </body>
 
